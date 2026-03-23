@@ -1,24 +1,24 @@
 This repository contains the code for the manuscript “Noninvasive Extraction of Maternal and Fetal Electrocardiograms Using Progressive Periodic Source Peel-off”, currently under review at IEEE Transactions on Instrumentation and Measurement.
 
 ## Project Structure
-Main File                     / Function	Description
-==================================================================
-main	Main                     script of the project
-FecgImpArtCanc	               Removes impulse artifacts
-FecgDetrFilt	                 Applies low-pass filtering
-FecgNotchFilt	                 Applies notch filtering
-FecgICACAM	                   Performs ICA-based independent component analysis
-FecgInterp	                   Performs signal interpolation
-FecgQRSmDet	                   Detects maternal ECG
-FecgQRSmCanc	                 Removes maternal ECG using SVD
-derivative	                   Differential filtering
-yanchibaihua3	                 Signal delay and whitening
-FecgICAf	                     Performs ICA-based independent component analysis
-dis_spike	                     Removes duplicated independent components
-getspike	                     Extracts fetal activation sequences using thresholding and clustering
-cfICA	                         PCFICA implementation
-FecgQRSfDet	                   Detects fetal ECG
-evaluation	                   Evaluates activation detection performance,including acc, sen, ppv, and F1
+| Main File / Function | Description |
+|---|---|
+| `main` | Main script of the project |
+| `FecgImpArtCanc` | Removes impulse artifacts |
+| `FecgDetrFilt` | Applies low-pass filtering |
+| `FecgNotchFilt` | Applies notch filtering |
+| `FecgICAm` | Performs ICA-based independent component analysis |
+| `FecgInterp` | Performs signal interpolation |
+| `FecgQRSmDet` | Detects maternal ECG |
+| `FecgQRSmCanc` | Removes maternal ECG using SVD |
+| `derivative` | Differential filtering |
+| `yanchibaihua3` | Signal delay and whitening |
+| `FecgICAf` | Performs ICA-based independent component analysis |
+| `dis_spike` | Removes duplicated independent components |
+| `getspike` | Extracts fetal activation sequences using thresholding and clustering |
+| `cfICA` | PCFICA implementation |
+| `FecgQRSfDet` | Detects fetal ECG |
+| `evaluation` | Evaluates activation detection performance, including acc, sen, ppv, and F1 |
 
 ## Usage
 1. Open MATLAB and add the project folder to the MATLAB path.
