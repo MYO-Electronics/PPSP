@@ -1,1 +1,1 @@
-# PPSP
+This repository contains the code for the manuscript “Noninvasive Extraction of Maternal and Fetal Electrocardiograms Using Progressive Periodic Source Peel-off”, currently under review at IEEE Transactions on Instrumentation and Measurement.
